@@ -1,0 +1,79 @@
+.card {
+  display: flex;
+  width: 50%;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  margin-bottom: 24px;
+  background-color: white;
+  min-height: 282px;
+  min-width: 750px;
+}
+
+.card-content {
+  display: flex;
+  flex: 1;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-img-container {
+  flex: 6;
+  max-width: 188px;
+  background-color: lightgray;
+  border-radius: 12px 0 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.card-img-container img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.missing-img {
+  width: 80px;
+  height: 96px;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px;
+}
+
+.card-text {
+  flex: 1; /* Allow .card-text to grow to fill remaining space */
+  display: flex; /* Ensure .card-text expands to fill width */
+  flex-direction: column; /* Optional: Use column layout for content */
+}
+
+.card-link {
+  text-align: right;
+  margin-top: 10px;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+h4 {
+  color: gray;
+}
+
+.card.owned {
+  border: 2px solid green; /* Example: Highlight owned cards */
+}
+
+.owned-button {
+  background-color: green; /* Example color change */
+  color: white; /* Example text color */
+}
