@@ -21,6 +21,7 @@ const MoviesGallery: React.FC = () => {
                             year={movie.release_date}
                             extract={movie.overview}
                             thumbnail={movie.poster_path}
+                            detailsLink={`${process.env.NEXT_PUBLIC_MOVIE_DB_MOVIE_URL}${movie.id}`}
                         />
                     ))}
                     <p>Total Results: {state.totalResults}</p>

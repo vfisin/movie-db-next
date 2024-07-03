@@ -12,7 +12,6 @@ function useLocalStorage<T>(key: string, initialValue: T): [T, (value: T) => voi
     });
 
     const setValue = (value: T) => {
-        console.log('setting value', value)
         try {
             setStoredValue(value);
             localStorage.setItem(key, JSON.stringify(value));

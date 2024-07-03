@@ -6,6 +6,7 @@ describe('Testing Thumbnail Card Component', () => {
         render(
 
                 <ThumbnailCard
+                    id={54834}
                     name="Inception"
                     title="Sci-Fi Thriller"
                     year="2010"
@@ -34,6 +35,7 @@ describe('Testing Thumbnail Card Component', () => {
         render(
 
                 <ThumbnailCard
+                    id={78354}
                     name="Interstellar"
                     title="Epic Sci-Fi"
                     year="2014"

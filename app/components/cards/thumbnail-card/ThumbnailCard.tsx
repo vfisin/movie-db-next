@@ -56,23 +56,6 @@ const ThumbnailCard: React.FC<ThumbnailCardProps> = ({
                     <h3>{title}</h3>
                     {year && <h4>{year}</h4>}
                     <p>{extract}</p>
-                    {/*<div className="card-actions card-link">*/}
-                    {/*    <Button*/}
-                    {/*        name={owned.includes(id) ? "Owned" : "Save"}*/}
-                    {/*        clickHandler={handleSaveClick}*/}
-                    {/*        aria-label={owned.includes(id) ? "Mark as Owned" : "Save to My Movies"}*/}
-                    {/*        className={owned.includes(id) ? "owned-button" : ""}*/}
-                    {/*    />*/}
-                    {/*    {detailsLink && (*/}
-                    {/*        <a*/}
-                    {/*            data-testid="details-link"*/}
-                    {/*            href={detailsLink}*/}
-                    {/*            aria-label={`View details of ${name}`}*/}
-                    {/*        >*/}
-                    {/*            <Button name="Details Page" aria-label="Details Page Button" />*/}
-                    {/*        </a>*/}
-                    {/*    )}*/}
-                    {/*</div>*/}
                 </div>
                 <div className="card-actions card-link">
                     <Button

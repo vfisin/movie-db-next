@@ -21,7 +21,6 @@ import Button from "../../components/button/Button";
 import PageNavigation from "../../components/page-navigation/PageNavigation";
 
 const HomePage: React.FC = () => {
-    console.log('env', process.env.MOVIE_DB_API_KEY);
     const { state, dispatch } = useContext(MovieDBContext);
     const {
         data,
@@ -59,7 +58,7 @@ const HomePage: React.FC = () => {
     );
 
     useEffect(() => {
-        if (pageNum !== undefined) {
+        if (pageNum !== undefined && searchTerm) {
             void getMoviesSearchData();
         }
     }, [pageNum, searchTerm]);

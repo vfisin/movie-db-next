@@ -7,6 +7,7 @@ Ensure you have a `.env` file in the root directory of your project with the fol
 ```bash
 NEXT_PUBLIC_MOVIE_DB_API_KEY='Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzMWFiOTRjNTk5NzU1MDg5NjRhZDgzMjcxZjBjNDE0NiIsIm5iZiI6MTcxOTk0NDAwMS40NTIzNDUsInN1YiI6IjY2ODQ0MjdjMGFjMGIwMmM2YjYwYTYzYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Q-vqzFJ5_Ki6vXYnUjBEKVHXpJ-ttzjP5qRAw-BFXwo'
 NEXT_PUBLIC_MOVIE_DB_THUMB_MEDIUM_URL=https://image.tmdb.org/t/p/w188_and_h282_bestv2/
+NEXT_PUBLIC_MOVIE_DB_MOVIE_URL=https://www.themoviedb.org/movie/
 ```
 
 ## Node Version
